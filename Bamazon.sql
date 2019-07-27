@@ -5,11 +5,11 @@ create database bamazon_db;
 use bamazon_db;
 
 create table products (
-item_id int auto_increment not null,
+item_id integer auto_increment not null,
 product_name varchar (100) not null,
 department_name varchar (50) not null,
 price decimal (10,2) not null,
-stock_quantity int (10) not null,
+stock_quantity integer not null,
 primary key (item_id)
 );
 
@@ -33,3 +33,5 @@ values ("socks", "clothing", 19.99, 200),
 ("Organic Trail Mix", "Grocery", 20.99, 228),
 ("Horizon Organic string Cheeese", "Grocery", 3.99, 958),
 ("Bananas", "Produce", 0.49, 10000);
+
+select * from products;
