@@ -11,11 +11,11 @@ Then, go to your terminal/bash window:
 
 To start the app as a customer, type "node bamazonCustomer.js". You will see a list of all items in stock:
 
-![Screenshot ](/images/screenshot.png)
+![Screenshot](/images/screenshot.png)
 
 Then follow the prompts to select the product ID , the quantity to see the total cost of your purchase.
 
-![Screenshot ](/images/screenshot(1).png)
+![Screenshot](/images/screenshot(1).png)
 
 
 To make this app, I created a database using MySQL Workbench and created a table with the products data inside the database. 
