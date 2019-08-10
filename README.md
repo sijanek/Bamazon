@@ -15,7 +15,7 @@ To start the app as a customer, type "node bamazonCustomer.js". You will see a l
 
 Then follow the prompts to select the product ID , the quantity to see the total cost of your purchase.
 
-![Screenshot](/bamazon.png)
+![Screenshot](/images/bamazon.png)
 
 
 To make this app, I created a database using MySQL Workbench and created a table with the products data inside the database. 
